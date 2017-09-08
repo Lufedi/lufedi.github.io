@@ -1,0 +1,46 @@
+.header p{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+
+.video{
+    text-align: center;
+}
+.download-link{
+
+    color: aquamarine;
+}
+
+.title{
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+.description{
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+
+}
+
+p {
+    text-align: center;
+}
+
+
+.footer{
+    color: white;
+    text-align: right;
+}
+
