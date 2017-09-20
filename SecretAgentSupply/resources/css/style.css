@@ -6,3 +6,60 @@
     background-size: cover;
     height: 20rem;
 }
+
+
+.banner-top{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.banner-top img{
+    height: 1.5em;
+    padding: 10px 10px;
+}
+
+.banner-info{
+    height: 150px;
+    width: 320px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 10%;
+    padding: 32px 48px;
+}
+
+
+nav{
+
+    color: white;
+
+    background-color: firebrick;
+}
+nav ul{
+    padding: 0 20em;
+
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    margin: 10px 0;
+}
+.banner-info h4{
+    display: block;
+    margin: 25px 0;
+}
+.banner-info h1{
+    font-size: 2em;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+html{
+    font-size: 18px;
+}
