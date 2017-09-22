@@ -4,11 +4,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
+    height: 25rem;
+    width:100%;
 }
 
 .banner-top-container{
     background-color: black;
+}
+
+
+
+.information{
+    max-width: 900px;
+    margin: 2% auto 4em  auto;
+    display: flex;
+    justify-content: space-between;
+}
+.info-box{
+    width: 35%;
+}
+
+.title-info{
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 1em 2em;
+    margin: 0 0 2px 0;
 }
 
 .items{
@@ -30,9 +51,9 @@
     align-items: center;
 }
 .item-box img{
-    max-width: 50%;
+    max-width: 9rem;
     height: auto;
-    margin: 15%;
+    margin: 2rem;
 }
 
 .item-box span{
@@ -55,7 +76,11 @@
     margin: 0 auto;
 }
 
-
+footer .message{
+    padding: 5em 5em;
+    background-color: black;
+    color: white;
+}
 
 .banner-top img{
     height: 1.5em;
@@ -64,21 +89,23 @@
 }
 
 .banner-info{
-    height: 150px;
-    width: 320px;
+    height: 12rem;
+    width: 25rem;
     font-weight: bold;
+
     background-color: black;
     color: white;
     position: relative;
-    top: 15%;
+    top: 9rem;
     left: 10%;
-    padding: 32px 48px;
+
 }
 
 
 nav{
 
     color: white;
+    width: 100%;
 
     background-color: firebrick;
 }
@@ -95,14 +122,104 @@ nav ul li{
 }
 .banner-info h4{
     display: block;
-    margin: 25px 0;
+    padding-top: 2rem;
+    margin-left: 2rem;
 }
 .banner-info h1{
     font-size: 2em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 body{
     font-family: Helvetica, sans-serif;
 }
 html{
     font-size: 18px;
+}
+
+.mobile-nav{
+    display: none;
+    width: 100%;
+}
+@media only screen and (max-width: 1024px){
+
+    .item-box{
+        width: 47%;
+    }
+    #celular-watch{
+        display: none;
+    }
+    .banner-top{
+        padding-left: 2rem;
+    }
+    .items{
+        width: 80%;
+    }
+    .information{
+        width: 80%;
+    }
+    body {
+        font-size: 16px;
+    }
+    .desk-nav{
+        display: none;
+    }
+    .mobile-nav{
+
+        display: block;
+
+    }
+}
+
+@media screen and (max-width: 470px){
+    #glasses{
+        display: none;
+
+    }
+
+    .item-box{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .information{
+        flex-direction: column;
+    }
+    .info-box{
+
+        width: 100%;
+        margin: 0.5em auto;
+    }
+    body{
+        font-size: 16px;
+    }
+    .banner{
+        height: 17em;
+    }
+
+    .banner-info{
+        font-family: Helvetica;
+        font-size: 1rem;
+        font-weight: bold;
+        left:0px;
+        top:10rem;
+        height: 4rem;
+        width: 100%;
+    }
+    .banner-info h4{
+        padding-top: 1rem;
+
+        font-size: 0.7rem;
+    }
+    .banner-info h1{
+        font-size: 1rem;
+        margin: 0.4rem ;
+        margin-left: 2rem;
+    }
+
+
+
+
+
 }
