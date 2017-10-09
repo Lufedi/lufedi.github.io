@@ -1,0 +1,101 @@
+html{
+    font-size: 16px;
+}
+
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+.logo span{
+
+}
+nav{
+    margin-right: 24px;
+}
+nav span{
+    margin: 0 1rem;
+}
+
+
+/* Jumbotron section */
+.jumbotron{
+    display: flex;
+    background-color: #D8D8D8;
+    color: #4A4A4A;
+    padding: 2rem 1.5rem;
+}
+.jumbotron-img{
+
+    width: 60%;
+}
+.jumbotron img{
+    max-width: 100%;
+}
+
+.jumbotron-text{
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.jumbotron-text a{
+    padding: 0.5rem 1rem;
+    background-color: #4A4A4A;
+    color: antiquewhite;
+
+    text-align: center;
+}
+.jumbotron p{
+    margin: 1rem 0;
+}
+/* End jumbotron section */
+
+
+
+/* Post section */
+.posts_section{
+    display: flex;
+    padding: 2rem 1.5rem;
+}
+.main_article{
+    width: 60%;
+}
+.main_article img{
+    max-width: 100%;
+}
+.main_article h1{
+    margin-bottom: 1.5rem;
+}
+.posts{
+    width: 40%;
+}
+.post{
+    padding-left: 1rem;
+    display: flex;
+}
+.post_image{
+    width: 35%;
+}
+
+.post img{
+    max-width: 100%;
+}
+.post_data{
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/* End post section */
