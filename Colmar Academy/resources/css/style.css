@@ -1,5 +1,7 @@
 html{
     font-size: 16px;
+    color: #4A4A4A;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -9,12 +11,35 @@ header{
     align-items: center;
 }
 .logo{
+    color:black;
     margin-left: 24px;
     display: flex;
     align-items: center;
 }
-.logo span{
+span strong{
+    font-weight: bold;
 
+}
+h1{
+    line-height: 2.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+
+p{
+    font-size: 0.82rem;
+    font-weight: 600;
 }
 nav{
     margin-right: 24px;
@@ -23,12 +48,16 @@ nav span{
     margin: 0 1rem;
 }
 
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
 /* Jumbotron section */
 .jumbotron{
     display: flex;
     background-color: #D8D8D8;
-    color: #4A4A4A;
+
     padding: 2rem 1.5rem;
 }
 .jumbotron-img{
@@ -53,7 +82,9 @@ nav span{
     text-align: center;
 }
 .jumbotron p{
-    margin: 1rem 0;
+    margin: 2rem 0;
+    line-height: 1.5rem;
+    font-weight: 600;
 }
 /* End jumbotron section */
 
@@ -61,6 +92,7 @@ nav span{
 
 /* Post section */
 .posts_section{
+    background-color: #F3F5F5;
     display: flex;
     padding: 2rem 1.5rem;
 }
@@ -70,18 +102,40 @@ nav span{
 .main_article img{
     max-width: 100%;
 }
-.main_article h1{
+.main_article h2{
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
 }
+.main_article_text, .main_article_autor{
+
+    margin-top: 1rem;
+}
 .posts{
+    margin-left: 1.5rem;
     width: 40%;
 }
+
+
+.posts .post:last-child{
+    background-color: #D8D8D8;
+}
+.posts .post:first-child{
+    padding-top: 0;
+}
+
 .post{
-    padding-left: 1rem;
+
     display: flex;
 }
 .post_image{
     width: 35%;
+    margin: 1rem 1rem;
+}
+
+.post a{
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: cornflowerblue;
 }
 
 .post img{
@@ -89,13 +143,93 @@ nav span{
 }
 .post_data{
     display: flex;
-    padding-left: 1rem;
+    width: 65%;
     flex-direction: column;
     justify-content: center;
+}
+.post_data p{
+    margin: 0.5rem 0;
+}
+
+
+/* Post section end*/
+
+/* Learning section */
+
+.learning_section{
+    padding: 2rem 4.5rem;
+    background-color:#EAEBEC ;
+}
+.learning_section h2{
+    text-align: center;
+}
+.learning_posts{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.learning_post{
+    width: 30%;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.learning_post h2{
+
+    text-align: left;
+}
+
+.learning_post img{
+    max-width: 100%;
+}
+.learning_post p{
+    margin: 0.5rem 0;
+}
+.learning_post_data{
+    margin: 1rem 1rem 1rem ;
+}
+
+/* Learning section end*/
+
+/* Thesis section*/
+.thesis_section{
+    background-color: #F3F5F5;
+    padding: 2rem;
+
+}
+
+
+.thesis_content{
+    display: flex;
+    margin: 2rem 1.5rem ;
+}
+
+
+.thesis_video{
+    width: 60%;
+
+}
+.thesis_video video{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+.thesis_video h2{
+    margin-bottom: 0.5rem;
 }
 
 
 
+/* Thesis section end*/
 
 
-/* End post section */
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    margin: 1rem 1.5rem;
+}
+
+/* footer end*/
