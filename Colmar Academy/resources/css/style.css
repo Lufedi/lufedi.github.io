@@ -1,20 +1,17 @@
+
+/* Global styles */
 html{
     font-size: 16px;
     color: #4A4A4A;
     font-family: 'Raleway', sans-serif;
 }
 
-header{
-    height: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .logo{
     color:black;
     margin-left: 24px;
     display: flex;
     align-items: center;
+
 }
 span strong{
     font-weight: bold;
@@ -41,6 +38,18 @@ p{
     font-size: 0.82rem;
     font-weight: 600;
 }
+/* Global styles end*/
+
+
+
+/* Header section */
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav{
     margin-right: 24px;
 }
@@ -52,6 +61,12 @@ nav span{
     text-align: center;
     margin-bottom: 2rem;
 }
+
+.mobile-bar{
+    display: none;
+}
+
+/* Header section end*/
 
 /* Jumbotron section */
 .jumbotron{
@@ -196,7 +211,7 @@ nav span{
 /* Thesis section*/
 .thesis_section{
     background-color: #F3F5F5;
-    padding: 2rem;
+    padding-top: 2rem;
 
 }
 
@@ -230,7 +245,31 @@ footer{
     justify-content: space-between;
 }
 footer div{
+    font-size: 0.7rem;
     margin: 1rem 1.5rem;
 }
 
 /* footer end*/
+
+
+
+
+@media only screen and (max-width: 470px){
+    /* Header  section*/
+    .desktop{
+        display: none;
+    }
+    .mobile-bar{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+
+    /* Header section end*/
+
+
+}
