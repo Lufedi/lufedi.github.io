@@ -254,7 +254,7 @@ footer div{
 
 
 
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 660px){
     /* Header  section*/
     .desktop{
         display: none;
