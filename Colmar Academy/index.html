@@ -5,8 +5,10 @@
   <title>Title</title>
   <link rel="stylesheet" href="resources/css/reset.css">
   <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/style-mobile.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800" rel="stylesheet">
   <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
 
@@ -59,7 +61,7 @@
 
       <div class="posts">
         <div class="post">
-          <div class="post_image">
+          <div class="post_image" id="orientation_post">
             <img src="resources/images/information-orientation.jpg">
           </div>
           <div class="post_data">
@@ -70,7 +72,7 @@
         </div>
 
         <div class="post">
-          <div class="post_image">
+          <div class="post_image" id="campus_post">
             <img src="resources/images/information-campus.jpg">
           </div>
           <div class="post_data">
@@ -81,12 +83,12 @@
         </div>
 
         <div class="post">
-          <div class="post_image">
+          <div class="post_image" id="guest_post">
             <img src="resources/images/information-guest-lecture.jpg">
           </div>
           <div class="post_data">
             <h3> Our guest lecture</h3>
-            <p> Join a keynote with Oli</p>
+            <p> Join a keynote with Oli Sack about music in medical treatment</p>
             <a> Read more</a>
           </div>
         </div>
@@ -96,6 +98,15 @@
   <div class="learning_section">
 
     <h2 class="title" > Start learning</h2>
+
+    <div class="learning_posts_mobile">
+      <p>Software Engineering</p>
+      <p>Computer art</p>
+      <p>Design</p>
+      <p>Data</p>
+      <p>Business</p>
+      <p>Marketing</p>
+    </div>
     <div class="learning_posts">
 
       <div class="learning_post">
@@ -196,10 +207,10 @@
 
   <footer>
     <div>
-      2016 Colmar Academy all rights reserved
+      <p>©2016 Colmar Academy all rights reserved</p>
     </div>
 
-    <div>
+    <div class="terms">
       Terms Privacy
     </div>
   </footer>

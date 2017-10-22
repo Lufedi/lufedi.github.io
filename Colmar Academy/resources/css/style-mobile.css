@@ -1,0 +1,147 @@
+
+
+
+@media only screen and (max-width: 660px){
+    /* Header  section*/
+    .desktop{
+        display: none;
+    }
+    .mobile-bar{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    /* End Header Section*/
+
+    /* Jumbotron section*/
+    .jumbotron{
+        flex-direction: column;
+        padding: 0 0;
+    }
+    .jumbotron-img{
+        width: 100%;
+    }
+
+    .jumbotron-text{
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+
+    .jumbotron h1{
+        font-size: 2.5rem ;
+        line-height: 3.5rem;
+    }
+    .jumbotron p{
+        font-size: 1.5rem;
+    }
+
+    .jumbotron a{
+        margin-bottom: 2rem;
+        padding: 1rem 0;
+        font-size: 1.3rem;
+        background-color: #9B9B9B;
+    }
+
+    /* End jumbotron section*/
+
+    /* Post section */
+    .main_article{
+        display: none;
+    }
+    .posts{
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .post{
+        flex-direction: column;
+    }
+    .post_image{
+        margin: 0 0;
+        width: 100%;
+    }
+
+    #orientation_post img{
+        content: url("../images/information-orientation-mobile.jpg");
+    }
+    #campus_post img{
+        content: url("../images/information-campus-mobile.jpg");
+    }
+    #guest_post img{
+        content: url("../images/information-guest-lecture-mobile.jpg");
+    }
+
+    .post_data{
+        margin: 2rem 1rem;
+    }
+    .posts .post:last-child{
+        background-color: transparent;
+    }
+
+
+    /* End post section */
+
+
+    /* Learning section */
+    .learning_section{
+        background-color: #F3F5F5;
+        border-top: solid 0.2px lightgray ;
+        border-bottom: solid 0.2px lightgray ;
+        padding: 2rem  1.5rem;
+    }
+    .title{
+        font-size: 2.5rem;
+    }
+    .learning_posts{
+        display: none;
+    }
+
+    .learning_posts_mobile{
+        display: block;
+    }
+    .learning_posts_mobile p{
+
+        padding: 1.5rem;
+        background-color: #D8D8D8;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    /* End learning section */
+
+    /* Thesis section */
+
+    .thesis_content .posts{
+        display: none;
+    }
+
+
+    .thesis_video h2, .thesis_video p{
+        display: none;
+    }
+
+    .thesis_video{
+        width: 100%;
+    }
+
+    /* End thesis section*/
+
+    /* Footer Section*/
+
+    .terms{
+        display: none;
+    }
+    footer div p{
+        font-size: 1rem;
+    }
+
+    /* End footer section*/
+
+
+
+
+
+}
