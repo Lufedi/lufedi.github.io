@@ -26,8 +26,8 @@
     }
 
     .jumbotron-text{
-        padding-left: 1rem;
-        padding-top: 2rem;
+
+        padding: 2rem 1rem;
     }
 
     .jumbotron h1{
