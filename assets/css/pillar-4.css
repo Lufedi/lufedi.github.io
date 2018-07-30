@@ -6328,7 +6328,8 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
     color: rgba(255, 255, 255, 0.6); }
     .resume-header a:hover {
       color: white; }
-
+      .resume-header a.cv{
+        color: white; }
 .resume-social {
   font-size: 0.875rem; }
   .resume-social .fa-container {
